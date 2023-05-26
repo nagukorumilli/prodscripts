@@ -1,8 +1,9 @@
 #!/bin/bash
 echo "ENTER COMMNAND"
 read cmd
-`$cmd`
-if[$? == 0]
+#$cmd
+a=`$cmd`
+if [ $? == 0 ]
 then
 echo "COMMAND EXECUTED"
 else
